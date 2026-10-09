@@ -1,6 +1,6 @@
 # Mathematical Frontier
 
-网站：https://xdpan19820627-afk.github.io/math-frontier/
+网站：https://selena-wu.github.io/math-frontier/
 
 ## 首次发布
 仓库 Settings → Pages → Source 选择 Deploy from a branch → main → / (root) → Save。
