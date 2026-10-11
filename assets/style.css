@@ -40,3 +40,59 @@ body{background:#fefefd;-webkit-font-smoothing:antialiased;text-rendering:optimi
 @media(max-width:700px){.reference-header{padding:15px 22px;min-height:95px;gap:12px}.reference-brand{font-size:16px}.reference-header nav{gap:23px;row-gap:3px}.reference-header nav a{font-size:12px;padding:5px 0}.owner-tools{gap:12px}.owner-tools button,.owner-tools a{font-size:10px}.site-shell main{padding:33px 23px 47px}.site-shell main>h1{font-size:29px}.reference-home .home-title{font-size:19px;margin-bottom:34px}.reference-profile{gap:22px;align-items:flex-start;margin-bottom:36px}.reference-avatar{width:83px;height:83px;flex-basis:83px;outline-offset:4px;margin-top:7px}.reference-bio h1{font-size:25px;line-height:1.45;margin-bottom:10px}.reference-bio p{font-size:13px;line-height:1.9}.reference-education{padding-top:21px;margin-bottom:26px}.reference-education h2{font-size:16px}.reference-education p{font-size:12px}.reference-cards{gap:12px}.reference-cards article{padding:16px 18px;min-height:0;border-radius:5px}.reference-cards a{font-size:19px}.reference-cards p{margin-top:6px;font-size:13px}.site-shell footer{padding:21px 23px;gap:12px}.about-community{font-size:14px;line-height:1.95}.about-community h2{font-size:19px}.about-contact{font-size:13px}.empty{padding:32px 20px 37px}.site-shell .lead{font-size:14px}.editing-site .reference-profile{gap:19px}}
 @media(max-width:420px){.reference-profile{flex-direction:column;gap:25px}.reference-avatar{margin-top:0}.reference-header nav{gap:18px}.reference-bio h1{font-size:26px}}
 .owner-login{margin-left:auto;color:#8d8593;font-size:11px}
+
+/* Mathematical Frontier: paper, ink, and a restrained coordinate study. */
+:root{--ink:#293537;--muted:#6f7776;--line:#dddeda}
+body{background:#f2f1ec;color:var(--ink)}
+.site-shell{background:linear-gradient(180deg,#eeeee8 0,#f6f5f0 430px,#f2f1ec 100%);min-height:100vh}
+.reference-header{max-width:1120px;border-bottom:1px solid #ced3cc;min-height:83px}
+.reference-brand{color:#2d4240;font-family:Georgia,serif;font-size:22px;letter-spacing:1px}
+.reference-header nav a{color:#53615e}
+.reference-header nav .active{color:#314c47}
+.reference-header nav .active:after{background:#314c47}
+.site-shell main{padding-top:45px;padding-bottom:76px}
+.reference-home .home-title{font:12px/1.5 Arial,sans-serif;letter-spacing:2px;text-transform:uppercase;color:#737e76;margin-bottom:28px;display:flex;align-items:center;gap:14px}
+.reference-home .home-title:after{content:"";height:1px;width:52px;background:#aab5aa}
+.reference-profile{position:relative;isolation:isolate;max-width:none;margin:0 0 35px;gap:35px;padding:52px 44px;min-height:300px;background:#e8ece4;border:1px solid #d5dcd1;border-radius:2px;overflow:hidden}
+.reference-profile:before{content:"";position:absolute;inset:0;z-index:-2;background-image:linear-gradient(#536b5810 1px,transparent 1px),linear-gradient(90deg,#536b5810 1px,transparent 1px);background-size:32px 32px;mask-image:linear-gradient(90deg,transparent 35%,#000)}
+.reference-profile:after{content:"";position:absolute;width:330px;height:330px;right:-170px;top:-130px;border:1px solid #657c6338;border-radius:50%;box-shadow:0 0 0 38px #0000,0 0 0 39px #657c6320,0 0 0 78px #0000,0 0 0 79px #657c6314;z-index:-1;pointer-events:none}
+.reference-avatar{width:119px;height:119px;flex-basis:119px;background:#f5f4ee;outline-color:#afbca8;outline-offset:7px}
+.reference-bio h1{font-family:Georgia,"Songti SC",serif;font-weight:400;font-size:35px;letter-spacing:-.8px;color:#273e35;margin-bottom:17px}
+.reference-bio p{color:#4c5952;line-height:1.95}
+.reference-bio p:first-of-type{font-size:15px}
+.reference-cards{gap:18px;counter-reset:section}
+.reference-cards article{position:relative;padding:39px 23px 24px;background:#f9f8f3;border-color:#d8ddd3;border-radius:2px;min-height:180px;counter-increment:section}
+.reference-cards article:before{content:"0" counter(section);position:absolute;top:12px;left:23px;color:#8a9588;font:10px/1.5 monospace;letter-spacing:1px}
+.reference-cards article:nth-child(2){background:#edf0ed}
+.reference-cards article:nth-child(3){background:#f0ede6}
+.reference-cards a{color:#3b5149;font-size:21px;text-decoration:none}
+.reference-cards a:hover{text-decoration:underline;text-underline-offset:5px}
+.reference-cards p{color:#697169}
+.reference-cards article:hover{background:#f7f7ef;border-color:#97a78f}
+.site-shell main>h1{color:#30483e;font-size:37px;border-bottom:1px solid #ced6c8;padding-bottom:22px}
+.entry{background:#faf9f4;border:1px solid #d8ddd3;border-left:3px solid #8c9e81;padding:25px 30px;margin:22px 0;border-radius:2px}
+.entry h3 a{color:#365448}
+.entry .eyebrow{color:#738169;font-family:monospace;letter-spacing:.5px}
+.entry p{color:#687169}
+.entry>a{display:inline-block;color:#466452;font-size:13px;text-underline-offset:4px}
+.empty{background:#eceee7;border:1px dashed #c2cbbd;border-radius:2px;padding:50px 25px}
+.empty h3{color:#6d7968;font:20px Georgia,"Songti SC",serif}
+.about-community{background:#f9f8f3;border:1px solid #d9ded3;padding:32px 37px;max-width:100%;font-size:15px;color:#515d55}
+.about-community h2{color:#334d3d;font-family:Georgia,"Songti SC",serif;font-weight:400;font-size:24px}
+.about-community h2:not(:first-child){border-color:#d7ddd0}
+.about-contact{background:#e9ede3;padding:17px 21px;border-left:2px solid #8b9e7e;color:#40573d}
+.article-body{color:#4c574e}
+.site-shell footer{border-top:1px solid #ccd3c7;color:#7b8477;font-family:Georgia,serif;font-size:11px;padding-top:25px}
+@media(max-width:700px){
+.reference-header{padding:15px 23px}
+.reference-profile{padding:32px 25px;gap:24px;min-height:0}
+.reference-avatar{width:82px;height:82px;flex-basis:82px;outline-offset:5px}
+.reference-bio h1{font-size:28px}
+.reference-bio p:first-of-type{font-size:13px}
+.reference-cards article{padding:37px 22px 21px;min-height:0}
+.about-community{padding:24px 22px;font-size:14px}
+.about-community h2{font-size:21px}
+.entry{padding:22px 23px}
+.site-shell main>h1{font-size:30px}
+}
+@media(max-width:420px){.reference-profile{flex-direction:column;gap:26px}.reference-bio h1{font-size:29px}}
