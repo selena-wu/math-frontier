@@ -2,13 +2,25 @@
   {
     "id": "392b8399-2f5e-4170-b469-50b223b34430",
     "kind": "note",
-    "title": "The real number system",
-    "summary": "Week1",
+    "title": "Week1",
+    "summary": "",
     "content": "",
     "topic": "Real Analysis",
     "date": "2026-10-09",
-    "attachment": "files/the-real-number-system-week1.pdf",
-    "file_name": "The real number system — Week1.pdf",
+    "attachment": "files/week1.pdf",
+    "file_name": "Week1.pdf",
+    "status": "published"
+  },
+  {
+    "id": "week1-solution",
+    "kind": "note",
+    "title": "Week1 Solution",
+    "summary": "",
+    "content": "",
+    "topic": "Real Analysis",
+    "date": "2026-10-09",
+    "attachment": "files/week1-solution.pdf",
+    "file_name": "Week1 Solution.pdf",
     "status": "published"
   }
 ]
