@@ -1,26 +1,27 @@
 [
   {
-    "id": "392b8399-2f5e-4170-b469-50b223b34430",
+    "id": "week1",
     "kind": "note",
-    "title": "Week1",
-    "summary": "",
-    "content": "",
-    "topic": "Real Analysis",
-    "date": "2026-10-09",
-    "attachment": "files/week1.pdf",
-    "file_name": "Week1.pdf",
-    "status": "published"
-  },
-  {
-    "id": "week1-solution",
-    "kind": "note",
-    "title": "Week1 Solution",
-    "summary": "",
-    "content": "",
-    "topic": "Real Analysis",
-    "date": "2026-10-09",
-    "attachment": "files/week1-solution.pdf",
-    "file_name": "Week1 Solution.pdf",
-    "status": "published"
+    "title": "Week 1",
+    "subtitle": "Spaces & closure",
+    "summary": "We explore vector spaces, subspaces and direct sums. We also look at why intersections of subspaces are always subspaces, and why unions can fail.",
+    "content": "We explore vector spaces, subspaces and direct sums. We also look at why intersections of subspaces are always subspaces, and why unions can fail.",
+    "topic": "Linear Algebra",
+    "date": "2026-10-27",
+    "status": "published",
+    "attachments": [
+      {
+        "path": "files/week1/notes.pdf",
+        "title": "Notes",
+        "description": "Vector spaces, subspaces and direct sums.",
+        "pages": 5
+      },
+      {
+        "path": "files/week1/solutions.pdf",
+        "title": "Exercise solutions",
+        "description": "Solutions to the five exercises in the notes.",
+        "pages": 3
+      }
+    ]
   }
 ]
