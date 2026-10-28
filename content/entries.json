@@ -4,8 +4,8 @@
     "kind": "note",
     "title": "Week 1",
     "subtitle": "Spaces & closure",
-    "summary": "We explore vector spaces, subspaces and direct sums. We also look at why intersections of subspaces are always subspaces, and why unions can fail.",
-    "content": "We explore vector spaces, subspaces and direct sums. We also look at why intersections of subspaces are always subspaces, and why unions can fail.",
+    "summary": "Vector spaces, subspaces, and direct sums.",
+    "content": "Vector spaces, subspaces, and direct sums.",
     "topic": "",
     "date": "2026-10-27",
     "status": "published",
@@ -21,6 +21,31 @@
         "title": "Exercise solutions",
         "description": "Solutions to the five exercises in the notes.",
         "pages": 3
+      }
+    ]
+  },
+  {
+    "id": "week2",
+    "kind": "note",
+    "title": "Week 2",
+    "subtitle": "Span & independence",
+    "summary": "Show that a span is the smallest subspace containing the list, and independence means unique coefficients. (explore span, linear independence)",
+    "content": "Show that a span is the smallest subspace containing the list, and independence means unique coefficients. (explore span, linear independence)",
+    "topic": "",
+    "date": "2026-10-28",
+    "status": "published",
+    "attachments": [
+      {
+        "path": "files/week2/notes.pdf",
+        "title": "Notes",
+        "description": "Span and linear independence.",
+        "pages": 3
+      },
+      {
+        "path": "files/week2/solutions.pdf",
+        "title": "Exercise solutions",
+        "description": "Solutions to the Week 2 exercises.",
+        "pages": 2
       }
     ]
   }
